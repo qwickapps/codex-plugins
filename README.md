@@ -6,24 +6,55 @@ Part of the QwickApps multi-tool AI ecosystem — same skills and workflows avai
 
 ## Quick Start
 
+### Option 1: Install all skills at once
+
 ```bash
 # Clone with submodules
-git clone --recurse-submodules https://github.com/qwickapps/codex-plugins.git
-cd codex-plugins
+git clone --recurse-submodules https://github.com/qwickapps/codex-plugins.git ~/codex-plugins
+cd ~/codex-plugins
 
-# Install skills, prompts, and rules
+# Install skills to ~/.agents/skills/, AGENTS.md to ~/.codex/, prompts to ~/.codex/prompts/
 bash install.sh
 
 # Start using in any project
 codex
-/prompts:feature "add user authentication"
+$brainstorming    # Skills are invoked with $name
 ```
+
+### Option 2: Install individual skills via $skill-installer
+
+Inside Codex CLI:
+```
+$skill-installer install https://github.com/qwickapps/codex-plugins/tree/master/.agents/skills/writing-tests
+$skill-installer install https://github.com/qwickapps/codex-plugins/tree/master/.agents/skills/debugging
+```
+
+### Option 3: Project-level (check into your repo)
+
+```bash
+# Copy specific skills into your project
+mkdir -p .agents/skills
+cp -r ~/codex-plugins/.agents/skills/writing-tests .agents/skills/
+cp -r ~/codex-plugins/.agents/skills/debugging .agents/skills/
+# Codex auto-discovers skills in .agents/skills/
+```
+
+### Where things go
+
+| Content | Location | Discovery |
+|---------|----------|-----------|
+| Skills | `~/.agents/skills/` | Auto-discovered globally |
+| Skills (project) | `.agents/skills/` | Auto-discovered per repo |
+| AGENTS.md | `~/.codex/AGENTS.md` | Read on every session start |
+| AGENTS.md (project) | `AGENTS.md` in repo root | Read per project |
+| Prompts | `~/.codex/prompts/` | Invoked via `/prompts:name` (deprecated — use skills instead) |
+| Config | `~/.codex/config.toml` | Merged with project `.codex/config.toml` |
 
 ## What's Included
 
 ### Prompts (11)
 
-Codex slash commands — structured workflows invoked via `/prompts:<name>`.
+Codex slash commands invoked via `/prompts:<name>`. Note: custom prompts are [deprecated](https://developers.openai.com/codex/custom-prompts/) in favor of skills. These prompts still work but may be converted to skills in a future release.
 
 | Prompt | Purpose |
 |--------|---------|
@@ -164,20 +195,22 @@ Skills use the open [Agent Skills](https://github.com/anthropics/agent-skills) s
 
 ### Agent Personas
 
-Copy the agent definitions to your project's `config.toml`:
+Merge agent definitions into `~/.codex/config.toml` or your project's `.codex/config.toml`:
 
 ```toml
 # From config/sdlc-agents.toml
 [agents.architect]
 model = "o3"
 model_reasoning_effort = "high"
+description = "Senior software architect. Propose approaches with trade-offs, document decisions using ADR format."
 
 [agents.coder]
 model = "codex-mini"
 model_reasoning_effort = "medium"
+description = "Senior software engineer. Follow TDD, write clean minimal code following existing patterns."
 ```
 
-See `config/full-setup.toml` for a complete configuration.
+See `config/full-setup.toml` for all 8 agent personas.
 
 ### Syncing Shared Content
 

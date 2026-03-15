@@ -80,10 +80,11 @@ echo "  For a complete setup, see:"
 echo "    $SCRIPT_DIR/config/full-setup.toml"
 echo ""
 
-# ── Step 6: Copy AGENTS.md to home if not exists ────────────────
-if [ -f "$SCRIPT_DIR/AGENTS.md" ] && [ ! -f "$AGENTS_HOME/AGENTS.md" ]; then
-  cp "$SCRIPT_DIR/AGENTS.md" "$AGENTS_HOME/AGENTS.md"
-  echo "[6/6] Copied AGENTS.md to $AGENTS_HOME/"
+# ── Step 6: Copy AGENTS.md to Codex home if not exists ──────────
+# Codex reads ~/.codex/AGENTS.md for global instructions
+if [ -f "$SCRIPT_DIR/AGENTS.md" ] && [ ! -f "$CODEX_HOME/AGENTS.md" ]; then
+  cp "$SCRIPT_DIR/AGENTS.md" "$CODEX_HOME/AGENTS.md"
+  echo "[6/6] Copied AGENTS.md to $CODEX_HOME/"
 else
   echo "[6/6] AGENTS.md: skipped (already exists or source missing)"
 fi
