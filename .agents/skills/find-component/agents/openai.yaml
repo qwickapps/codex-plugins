@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for find-component
+# Source: claude-plugins/plugins/ux-design/skills/find-component/SKILL.md
+
+interface:
+  display_name: "Find Component"
+  short_description: "Look up available QwickApps React framework components before writing JSX"
+  category: "ux-design"
+
+policy:
+  allow_implicit_invocation: true

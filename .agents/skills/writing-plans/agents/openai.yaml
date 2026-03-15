@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for writing-plans
+# Source: claude-plugins/plugins/sdlc/skills/writing-plans/SKILL.md
+
+interface:
+  display_name: "Writing Plans"
+  short_description: "Write a step-by-step implementation plan from approved designs or requirements"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

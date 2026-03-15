@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for writing-skills
+# Source: claude-plugins/plugins/sdlc/skills/writing-skills/SKILL.md
+
+interface:
+  display_name: "Writing Skills"
+  short_description: "Create or improve skills for Claude Code plugins"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

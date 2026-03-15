@@ -1,0 +1,1 @@
+../../../shared/plugins/cloud/skills/configuring-services/SKILL.md

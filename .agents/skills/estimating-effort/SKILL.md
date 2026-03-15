@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/estimating-effort/SKILL.md

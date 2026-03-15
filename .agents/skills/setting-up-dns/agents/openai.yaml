@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for setting-up-dns
+# Source: claude-plugins/plugins/cloud/skills/setting-up-dns/SKILL.md
+
+interface:
+  display_name: "Setting Up DNS"
+  short_description: "Create and manage Cloudflare DNS records for OCI VMs"
+  category: "cloud"
+
+policy:
+  allow_implicit_invocation: true

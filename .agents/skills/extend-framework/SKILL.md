@@ -1,0 +1,1 @@
+../../../shared/plugins/ux-design/skills/extend-framework/SKILL.md

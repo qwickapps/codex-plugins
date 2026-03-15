@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for use-stack
+# Source: claude-plugins/plugins/dev-guide/skills/use-stack/SKILL.md
+
+interface:
+  display_name: "Use Stack"
+  short_description: "Guide project setup using the QwickApps technology stack"
+  category: "dev-guide"
+
+policy:
+  allow_implicit_invocation: true

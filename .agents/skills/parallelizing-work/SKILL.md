@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/parallelizing-work/SKILL.md

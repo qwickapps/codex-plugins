@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for planning-release
+# Source: claude-plugins/plugins/sdlc/skills/planning-release/SKILL.md
+
+interface:
+  display_name: "Planning Release"
+  short_description: "Prepare a version release with changelog, version bump, and release notes"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

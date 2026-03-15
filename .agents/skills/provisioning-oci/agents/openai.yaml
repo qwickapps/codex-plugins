@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for provisioning-oci
+# Source: claude-plugins/plugins/cloud/skills/provisioning-oci/SKILL.md
+
+interface:
+  display_name: "Provisioning OCI"
+  short_description: "Create and configure Oracle Cloud VMs via the OCI CLI"
+  category: "cloud"
+
+policy:
+  allow_implicit_invocation: true

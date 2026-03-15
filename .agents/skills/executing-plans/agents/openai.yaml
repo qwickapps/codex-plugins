@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for executing-plans
+# Source: claude-plugins/plugins/sdlc/skills/executing-plans/SKILL.md
+
+interface:
+  display_name: "Executing Plans"
+  short_description: "Execute a written implementation plan step by step in a dedicated session"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

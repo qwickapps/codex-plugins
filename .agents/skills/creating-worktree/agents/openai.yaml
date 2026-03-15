@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for creating-worktree
+# Source: claude-plugins/plugins/sdlc/skills/creating-worktree/SKILL.md
+
+interface:
+  display_name: "Creating Worktree"
+  short_description: "Create an isolated git worktree for feature, bug fix, or refactor work"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

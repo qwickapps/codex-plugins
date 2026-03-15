@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for getting-started
+# Source: claude-plugins/plugins/sdlc/skills/getting-started/SKILL.md
+
+interface:
+  display_name: "Getting Started"
+  short_description: "Initialize a session and orient the agent to the SDLC system and conventions"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

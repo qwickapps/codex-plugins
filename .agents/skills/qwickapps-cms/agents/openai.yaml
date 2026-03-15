@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for qwickapps-cms
+# Source: claude-plugins/plugins/dev-guide/skills/qwickapps-cms/SKILL.md
+
+interface:
+  display_name: "QwickApps CMS"
+  short_description: "Build QwickApps products that integrate with Payload CMS via @qwickapps/cms"
+  category: "dev-guide"
+
+policy:
+  allow_implicit_invocation: true

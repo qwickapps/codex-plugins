@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for configuring-services
+# Source: claude-plugins/plugins/cloud/skills/configuring-services/SKILL.md
+
+interface:
+  display_name: "Configuring Services"
+  short_description: "Install and configure software on OCI VMs via SSH"
+  category: "cloud"
+
+policy:
+  allow_implicit_invocation: true

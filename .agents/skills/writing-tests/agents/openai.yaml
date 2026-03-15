@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for writing-tests
+# Source: claude-plugins/plugins/sdlc/skills/writing-tests/SKILL.md
+
+interface:
+  display_name: "Writing Tests"
+  short_description: "Enforce RED-GREEN-REFACTOR test-driven development cycle"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

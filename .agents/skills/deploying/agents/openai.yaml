@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for deploying
+# Source: claude-plugins/plugins/sdlc/skills/deploying/SKILL.md
+
+interface:
+  display_name: "Deploying"
+  short_description: "Set up and execute deployments, CI/CD pipelines, and environment promotions"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

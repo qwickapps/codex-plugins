@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for optimizing-performance
+# Source: claude-plugins/plugins/sdlc/skills/optimizing-performance/SKILL.md
+
+interface:
+  display_name: "Optimizing Performance"
+  short_description: "Profile and optimize application performance with measurable benchmarks"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

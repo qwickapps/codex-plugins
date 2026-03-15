@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for planning-infrastructure
+# Source: claude-plugins/plugins/cloud/skills/planning-infrastructure/SKILL.md
+
+interface:
+  display_name: "Planning Infrastructure"
+  short_description: "Gather and document cloud infrastructure requirements"
+  category: "cloud"
+
+policy:
+  allow_implicit_invocation: true

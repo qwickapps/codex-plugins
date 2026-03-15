@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/receiving-review/SKILL.md

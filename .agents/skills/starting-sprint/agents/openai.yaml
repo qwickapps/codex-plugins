@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for starting-sprint
+# Source: claude-plugins/plugins/sdlc/skills/starting-sprint/SKILL.md
+
+interface:
+  display_name: "Starting Sprint"
+  short_description: "Begin a new sprint cycle with goals, backlog grooming, and task assignment"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

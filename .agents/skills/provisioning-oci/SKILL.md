@@ -1,0 +1,1 @@
+../../../shared/plugins/cloud/skills/provisioning-oci/SKILL.md

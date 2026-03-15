@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/creating-worktree/SKILL.md

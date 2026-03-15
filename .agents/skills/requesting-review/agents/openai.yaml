@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for requesting-review
+# Source: claude-plugins/plugins/sdlc/skills/requesting-review/SKILL.md
+
+interface:
+  display_name: "Requesting Review"
+  short_description: "Request a code review after completing a feature or before merging"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

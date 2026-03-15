@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for brainstorming
+# Source: claude-plugins/plugins/sdlc/skills/brainstorming/SKILL.md
+
+interface:
+  display_name: "Brainstorming"
+  short_description: "Explore user intent and design approaches before building"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for verifying-completion
+# Source: claude-plugins/plugins/sdlc/skills/verifying-completion/SKILL.md
+
+interface:
+  display_name: "Verifying Completion"
+  short_description: "Run validation gates to confirm work is complete and ready to commit"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

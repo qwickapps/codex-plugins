@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for tracking-issues
+# Source: claude-plugins/plugins/sdlc/skills/tracking-issues/SKILL.md
+
+interface:
+  display_name: "Tracking Issues"
+  short_description: "Create, update, and manage GitHub issues for work tracking"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

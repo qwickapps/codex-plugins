@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for env-management
+# Source: claude-plugins/plugins/secrets/skills/env-management/SKILL.md
+
+interface:
+  display_name: "Env Management"
+  short_description: "Manage encrypted environment variables and secrets"
+  category: "secrets"
+
+policy:
+  allow_implicit_invocation: true

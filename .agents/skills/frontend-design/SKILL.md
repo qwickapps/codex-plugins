@@ -1,0 +1,1 @@
+../../../shared/plugins/ux-design/skills/frontend-design/SKILL.md

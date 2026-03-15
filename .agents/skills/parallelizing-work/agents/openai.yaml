@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for parallelizing-work
+# Source: claude-plugins/plugins/sdlc/skills/parallelizing-work/SKILL.md
+
+interface:
+  display_name: "Parallelizing Work"
+  short_description: "Split independent tasks across parallel agents for concurrent execution"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

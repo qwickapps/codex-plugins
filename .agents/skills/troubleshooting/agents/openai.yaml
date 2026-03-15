@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for troubleshooting
+# Source: claude-plugins/plugins/deploy/skills/troubleshooting/SKILL.md
+
+interface:
+  display_name: "Troubleshooting"
+  short_description: "Diagnose and fix deployment failures, health checks, and gateway routing issues"
+  category: "deploy"
+
+policy:
+  allow_implicit_invocation: true

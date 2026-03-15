@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for frontend-design
+# Source: claude-plugins/plugins/ux-design/skills/frontend-design/SKILL.md
+
+interface:
+  display_name: "Frontend Design"
+  short_description: "Build frontend UI for QwickApps projects including components, pages, and layouts"
+  category: "ux-design"
+
+policy:
+  allow_implicit_invocation: true

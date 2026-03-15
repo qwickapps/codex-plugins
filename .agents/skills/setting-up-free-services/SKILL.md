@@ -1,0 +1,1 @@
+../../../shared/plugins/cloud/skills/setting-up-free-services/SKILL.md

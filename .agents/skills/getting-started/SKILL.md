@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/getting-started/SKILL.md

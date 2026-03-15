@@ -1,0 +1,1 @@
+../../../shared/plugins/ux-design/skills/find-component/SKILL.md

@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for setting-up-free-services
+# Source: claude-plugins/plugins/cloud/skills/setting-up-free-services/SKILL.md
+
+interface:
+  display_name: "Setting Up Free Services"
+  short_description: "Provision free-tier SaaS accounts like Cloudflare R2, Supabase, Upstash, and Resend"
+  category: "cloud"
+
+policy:
+  allow_implicit_invocation: true

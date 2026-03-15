@@ -1,0 +1,1 @@
+../../../shared/plugins/dev-guide/skills/qwickapps-react-framework/SKILL.md

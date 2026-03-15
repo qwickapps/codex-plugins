@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for debugging
+# Source: claude-plugins/plugins/sdlc/skills/debugging/SKILL.md
+
+interface:
+  display_name: "Debugging"
+  short_description: "Systematic root cause analysis before attempting any fix"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,27 @@
+# SDLC Validation Gate Rules for Codex CLI
+#
+# These rules enforce quality gates before commits.
+# Install: copy to ~/.codex/rules/ or reference in config.toml
+#
+# NOTE: Verify the Starlark API against your Codex CLI version.
+# The function signatures below follow the documented execpolicy format.
+# If your version uses a different API, adapt accordingly.
+
+def on_command(command):
+    """Prompt before git commit to remind about validation gates."""
+    if command.name == "shell" and command.args[0:10] == "git commit":
+        return Decision(
+            allow = False,
+            reason = "\n".join([
+                "SDLC Validation Gates Required:",
+                "1. Build passes (pnpm build / npm run build)",
+                "2. Tests pass (pnpm test / npm test)",
+                "3. Lint passes (pnpm lint / npm run lint)",
+                "4. Changes reviewed (git diff --staged)",
+                "5. Issue referenced in commit message",
+                "",
+                "Run /prompts:commit for a guided commit with all gates.",
+                "To proceed anyway, re-run with --force.",
+            ]),
+        )
+    return Decision(allow = True)

@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for delegating-tasks
+# Source: claude-plugins/plugins/sdlc/skills/delegating-tasks/SKILL.md
+
+interface:
+  display_name: "Delegating Tasks"
+  short_description: "Distribute independent implementation tasks to subagents for parallel execution"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

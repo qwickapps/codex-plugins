@@ -1,0 +1,1 @@
+../../../shared/plugins/cloud/skills/planning-infrastructure/SKILL.md

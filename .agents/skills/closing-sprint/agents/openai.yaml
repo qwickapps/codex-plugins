@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for closing-sprint
+# Source: claude-plugins/plugins/sdlc/skills/closing-sprint/SKILL.md
+
+interface:
+  display_name: "Closing Sprint"
+  short_description: "End a sprint cycle and generate a handoff document for the next sprint"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

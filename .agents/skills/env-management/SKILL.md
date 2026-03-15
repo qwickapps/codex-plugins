@@ -1,0 +1,1 @@
+../../../shared/plugins/secrets/skills/env-management/SKILL.md

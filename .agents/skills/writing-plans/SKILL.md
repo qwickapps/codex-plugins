@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/writing-plans/SKILL.md

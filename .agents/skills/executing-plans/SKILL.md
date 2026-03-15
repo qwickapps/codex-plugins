@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/executing-plans/SKILL.md

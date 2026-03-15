@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/closing-sprint/SKILL.md

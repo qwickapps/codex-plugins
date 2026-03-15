@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for provisioning
+# Source: claude-plugins/plugins/deploy/skills/provisioning/SKILL.md
+
+interface:
+  display_name: "Provisioning"
+  short_description: "Set up CapRover apps and QwickWay gateways for deployment"
+  category: "deploy"
+
+policy:
+  allow_implicit_invocation: true

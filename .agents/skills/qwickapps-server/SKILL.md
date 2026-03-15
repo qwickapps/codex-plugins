@@ -1,0 +1,1 @@
+../../../shared/plugins/dev-guide/skills/qwickapps-server/SKILL.md

@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for designing-ux
+# Source: claude-plugins/plugins/sdlc/skills/designing-ux/SKILL.md
+
+interface:
+  display_name: "Designing UX"
+  short_description: "Design user-facing interfaces, components, pages, layouts, and forms"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for extend-framework
+# Source: claude-plugins/plugins/ux-design/skills/extend-framework/SKILL.md
+
+interface:
+  display_name: "Extend Framework"
+  short_description: "Add new theme variables, palettes, or component variants to the framework"
+  category: "ux-design"
+
+policy:
+  allow_implicit_invocation: true

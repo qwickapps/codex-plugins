@@ -1,0 +1,1 @@
+../../../shared/plugins/sdlc/skills/optimizing-performance/SKILL.md

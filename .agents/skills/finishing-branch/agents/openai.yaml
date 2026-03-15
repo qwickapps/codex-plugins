@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for finishing-branch
+# Source: claude-plugins/plugins/sdlc/skills/finishing-branch/SKILL.md
+
+interface:
+  display_name: "Finishing Branch"
+  short_description: "Finalize a branch by merging, rebasing, or creating a pull request"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

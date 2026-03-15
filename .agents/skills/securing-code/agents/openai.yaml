@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for securing-code
+# Source: claude-plugins/plugins/sdlc/skills/securing-code/SKILL.md
+
+interface:
+  display_name: "Securing Code"
+  short_description: "Apply security best practices to authentication, APIs, queries, and input handling"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true

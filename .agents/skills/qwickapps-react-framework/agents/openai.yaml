@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for qwickapps-react-framework
+# Source: claude-plugins/plugins/dev-guide/skills/qwickapps-react-framework/SKILL.md
+
+interface:
+  display_name: "QwickApps React Framework"
+  short_description: "Set up the frontend application shell using @qwickapps/react-framework"
+  category: "dev-guide"
+
+policy:
+  allow_implicit_invocation: true

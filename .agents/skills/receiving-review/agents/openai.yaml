@@ -1,0 +1,10 @@
+# OpenAI Codex agent configuration for receiving-review
+# Source: claude-plugins/plugins/sdlc/skills/receiving-review/SKILL.md
+
+interface:
+  display_name: "Receiving Review"
+  short_description: "Evaluate and act on code review feedback"
+  category: "sdlc"
+
+policy:
+  allow_implicit_invocation: true
