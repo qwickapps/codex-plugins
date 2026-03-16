@@ -28,7 +28,6 @@ prefix_rule(
     justification = "Force-pushing is forbidden. Use --force-with-lease if you must overwrite remote history.",
     match = [
         "git push --force origin main",
-        "git push --force-with-lease origin feature",
     ],
 )
 
